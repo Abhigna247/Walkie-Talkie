@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h
+iostream
+-
+
+/home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp
+/home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h
+-
+arpa/inet.h
+-
+iostream
+-
+cstring
+-
+unistd.h
+-
+
+/home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp
+/home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/g++     CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o  -o ClientMain 

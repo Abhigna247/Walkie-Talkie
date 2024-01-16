@@ -1,0 +1,8 @@
+/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles/rebuild_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles/edit_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Client/CMakeFiles/rebuild_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Client/CMakeFiles/edit_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Client/CMakeFiles/ClientMain.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Server/CMakeFiles/rebuild_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Server/CMakeFiles/edit_cache.dir
+/home/kpit/Downloads/Walkie-Talkie/build/Server/CMakeFiles/ServerMain.dir
