@@ -21,6 +21,8 @@ cstring
 -
 unistd.h
 -
+pthread.h
+-
 
 /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp
 /home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h

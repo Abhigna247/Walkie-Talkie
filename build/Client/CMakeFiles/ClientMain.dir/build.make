@@ -60,28 +60,28 @@ include Client/CMakeFiles/ClientMain.dir/flags.make
 Client/CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o: Client/CMakeFiles/ClientMain.dir/flags.make
 Client/CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o: ../Client/src/ClientSocket.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Client/CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp
 
 Client/CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.i"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp > CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.i
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp > CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.i
 
 Client/CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.s"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp -o CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.s
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp -o CMakeFiles/ClientMain.dir/src/ClientSocket.cpp.s
 
 Client/CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o: Client/CMakeFiles/ClientMain.dir/flags.make
 Client/CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o: ../Client/src/ClientSocketMain.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Client/CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp
 
 Client/CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.i"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp > CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.i
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp > CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.i
 
 Client/CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.s"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp -o CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.s
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocketMain.cpp -o CMakeFiles/ClientMain.dir/src/ClientSocketMain.cpp.s
 
 # Object files for target ClientMain
 ClientMain_OBJECTS = \

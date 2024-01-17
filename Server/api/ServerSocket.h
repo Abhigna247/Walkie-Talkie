@@ -5,7 +5,7 @@ class ServerSocket
 {
 private:
     int mserverSocket;
-    bool misServerAcive;
+    bool misServerActive;
 public:
     ServerSocket();
     ~ServerSocket();
@@ -14,9 +14,7 @@ public:
 
     void stop();
 
-    void ListenForClients();
-
-    void HandleClients(int mClientSocket);
+    static void* clientThread(void* arg); 
 
 };
 

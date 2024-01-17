@@ -19,6 +19,8 @@ unistd.h
 -
 cstring
 -
+pthread.h
+-
 
 /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp
 /home/kpit/Downloads/Walkie-Talkie/Server/api/ServerSocket.h

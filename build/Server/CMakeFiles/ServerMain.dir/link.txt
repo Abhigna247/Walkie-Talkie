@@ -1,1 +1,1 @@
-/usr/bin/g++     CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o  -o ServerMain 
+/usr/bin/c++     CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o  -o ServerMain  -lpthread 

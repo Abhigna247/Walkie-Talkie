@@ -60,28 +60,28 @@ include Server/CMakeFiles/ServerMain.dir/flags.make
 Server/CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o: Server/CMakeFiles/ServerMain.dir/flags.make
 Server/CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o: ../Server/src/ServerSocket.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Server/CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp
 
 Server/CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.i"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp > CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.i
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp > CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.i
 
 Server/CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.s"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp -o CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.s
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp -o CMakeFiles/ServerMain.dir/src/ServerSocket.cpp.s
 
 Server/CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o: Server/CMakeFiles/ServerMain.dir/flags.make
 Server/CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o: ../Server/src/ServrSocketMain.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/Downloads/Walkie-Talkie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Server/CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.o -c /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp
 
 Server/CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.i"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp > CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.i
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp > CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.i
 
 Server/CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.s"
-	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp -o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.s
+	cd /home/kpit/Downloads/Walkie-Talkie/build/Server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/Downloads/Walkie-Talkie/Server/src/ServrSocketMain.cpp -o CMakeFiles/ServerMain.dir/src/ServrSocketMain.cpp.s
 
 # Object files for target ServerMain
 ServerMain_OBJECTS = \
