@@ -14,7 +14,6 @@ public:
     static void* RecieveMessages(void* arg); 
     void Connect(const std::string& ipAddress,int port);
     void DisConnect();
-    void RecieveMessages();
 };
 
 #endif // CLIENTSOCKET_H

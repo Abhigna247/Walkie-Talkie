@@ -15,7 +15,16 @@ ClientSocket::~ClientSocket() {
  
 void* ClientSocket::RecieveMessages(void* arg) {
     ClientSocket* clientSocket = reinterpret_cast<ClientSocket*>(arg);
-    clientSocket->RecieveMessages();
+    char buffer[256];
+    while (true) {
+        memset(buffer, 0, sizeof(buffer));
+        int bytesRead = recv(clientSocket->mclientSocket, buffer, sizeof(buffer), 0);
+        if (bytesRead <= 0) {
+            std::cerr << "Connection closed by server\n";
+            break;
+        }
+        std::cout << "Server message: " << buffer << std::endl;
+    }
     return nullptr;
 }
  
@@ -48,8 +57,7 @@ void ClientSocket::Connect(const std::string& ipAddress, int port) {
     char buffer[256];
     while (true) {
         std::string message;
-        std::cout << "Enter message (or 'exit' to quit): ";
-        std::getline(std::cin, message);
+        std::cin >> message;
         if (message == "exit") {
             break;
         }
@@ -60,17 +68,3 @@ void ClientSocket::Connect(const std::string& ipAddress, int port) {
 void ClientSocket::DisConnect() {
     close(mclientSocket);
 }
- 
-void ClientSocket::RecieveMessages() {
-    char buffer[256];
-    while (true) {
-        memset(buffer, 0, sizeof(buffer));
-        int bytesRead = recv(mclientSocket, buffer, sizeof(buffer), 0);
-        if (bytesRead <= 0) {
-            std::cerr << "Connection closed by server\n";
-            break;
-        }
-        std::cout << "Server message: " << buffer << std::endl;
-    }
-}
-

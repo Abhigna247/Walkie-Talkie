@@ -14,7 +14,10 @@ public:
 
     void stop();
 
-    static void* clientThread(void* arg); 
+    static void* SendingMessages(void* arg);
+
+    static void* RecieveMessages(void* arg);
+
 
 };
 
