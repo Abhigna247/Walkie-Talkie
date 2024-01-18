@@ -44,9 +44,17 @@ void ClientSocket::Connect(const std::string& ipAddress, int port) {
     int serverSocket = connect(mclientSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress));
     if (serverSocket == -1) {
         std::cerr << "Error while connecting to Server\n";
-        exit(EXIT_FAILURE);
+
+        while (true) {
+        std::string message;
+        std::getline(std::cin,message);
+        if (message == "exit") {
+            break;
+        }
+        storeOfflineMessages(message);
+        }
     }
- 
+
     pthread_t thread;
     if (pthread_create(&thread, nullptr, RecieveMessages, (void*)this) != 0) {
         std::cerr << "Error creating thread\n";
@@ -54,17 +62,37 @@ void ClientSocket::Connect(const std::string& ipAddress, int port) {
     }
 
     pthread_detach(thread);
+
+    sendStoredMessages();
+
     char buffer[256];
     while (true) {
         std::string message;
-        std::cin >> message;
+        std::getline(std::cin,message);
         if (message == "exit") {
             break;
         }
-        send(mclientSocket, message.c_str(), message.size(), 0);
+        SendToServer(message);
     }
 }
  
 void ClientSocket::DisConnect() {
     close(mclientSocket);
+}
+
+void ClientSocket::SendToServer(const std::string &message){
+    send(mclientSocket, message.c_str(), message.size(), 0);
+}
+
+void ClientSocket::sendStoredMessages() {
+    std::lock_guard<std::mutex> lock(mvectorMutex);
+    for (const std::string& message : mClientOfflineMessages) {
+        SendToServer(message);
+    }
+    mClientOfflineMessages.clear();
+}
+ 
+void ClientSocket::storeOfflineMessages(const std::string& message) {
+    std::lock_guard<std::mutex> lock(mvectorMutex);
+    mClientOfflineMessages.push_back(message);
 }

@@ -9,6 +9,10 @@
 /home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h
 iostream
 -
+mutex
+-
+vector
+-
 
 /home/kpit/Downloads/Walkie-Talkie/Client/src/ClientSocket.cpp
 /home/kpit/Downloads/Walkie-Talkie/Client/api/ClientSocket.h

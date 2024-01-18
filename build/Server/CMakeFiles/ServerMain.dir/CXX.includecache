@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/kpit/Downloads/Walkie-Talkie/Server/api/ServerSocket.h
+mutex
+-
+iostream
+-
+vector
+-
 
 /home/kpit/Downloads/Walkie-Talkie/Server/src/ServerSocket.cpp
 /home/kpit/Downloads/Walkie-Talkie/Server/api/ServerSocket.h
